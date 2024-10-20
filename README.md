@@ -29,7 +29,7 @@ Utilizamos las últimas tecnologías de encriptación para proteger tu informaci
 
 ## Estructura de Archivos
 
-La funcionalidad principal de la aplicación está organizada en la carpeta `APPCENTRO`, donde cada archivo cumple con una función específica:
+La funcionalidad principal de la aplicación está organizada en la carpeta `FOR CARE`, donde cada archivo cumple con una función específica:
 
 - **`chat_llama.py`**: Este archivo permite hacer preguntas sobre temas médicos y del registro médico a Llama 3.2. 
 - **`consultation_records.py`**: Aquí puedes realizar registros manuales de consultas médicas, incluyendo imágenes de recetas, resultados médicos, interpretaciones y audios que describen condiciones de salud.
@@ -37,3 +37,6 @@ La funcionalidad principal de la aplicación está organizada en la carpeta `APP
 - **`portada.py`**: Archivo principal que engloba la funcionalidad total de la aplicación a través de Streamlit, integrando todos los otros archivos.
 - **`register_history.py`**: Para realizar un registro general del paciente, recopilando información clave sobre su estado de salud.
 - **`requirements.txt`**: Contiene los paquetes necesarios para que la aplicación funcione correctamente.
+
+Además, en la carpeta `BIOS` se encuentran las biografías de los integrantes del equipo. La carpeta `Base de Datos` almacena los datos obtenidos a través de la aplicación, particularmente mediante la carpeta `FOR CARE`. En la carpeta `DATOS` se almacenan las imágenes, audios y otros archivos multimedia utilizados, los cuales son procesados posteriormente a través de Llama 3.2. También incluye un aviso de privacidad muy relevante sobre el manejo de datos personales, titulado `Aviso_Privacidad_Salud_Analitica_Boutique.docx`.
+
